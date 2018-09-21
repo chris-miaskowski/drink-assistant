@@ -1,0 +1,28 @@
+[debug] [2018-09-21T14:43:27.483Z] ----------------------------------------------------------------------
+[debug] [2018-09-21T14:43:27.486Z] Command:       /Users/chris.miaskowski/.nvm/versions/node/v8.11.3/bin/node /Users/chris.miaskowski/.nvm/versions/node/v8.11.3/bin/firebase serve --debug
+[debug] [2018-09-21T14:43:27.487Z] CLI Version:   4.2.1
+[debug] [2018-09-21T14:43:27.487Z] Platform:      darwin
+[debug] [2018-09-21T14:43:27.487Z] Node Version:  v8.11.3
+[debug] [2018-09-21T14:43:27.488Z] Time:          Fri Sep 21 2018 16:43:27 GMT+0200 (CEST)
+[debug] [2018-09-21T14:43:27.488Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-21T14:43:27.499Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-21T14:43:27.499Z] > authorizing via signed-in user
+[debug] [2018-09-21T14:43:27.501Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/newagent-3dd0f  
+ 
+[debug] [2018-09-21T14:43:28.687Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-21T14:43:28.689Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/newagent-3dd0f  
+ 
+[debug] [2018-09-21T14:43:29.699Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/chris.miaskowski/dev/projects/personal/drink-assistant'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-21T14:43:30.857Z] Fetching environment
+[debug] [2018-09-21T14:43:30.860Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/683202947264:getServerAppConfig  
+ 
+[debug] [2018-09-21T14:43:31.197Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-21T14:43:31.198Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-21T14:43:32.781Z] Parsing function triggers
+[info] ✔  functions: addDrink: http://localhost:5000/newagent-3dd0f/us-central1/addDrink
+[info] Shutting down...

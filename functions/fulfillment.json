@@ -1,0 +1,61 @@
+{
+    "responseId": "83f129c9-9313-4d28-9b7d-c8d78d962f1c",
+    "queryResult": {
+      "queryText": "yes",
+      "action": "notify-about-drink.notify-about-drink-yes",
+      "parameters": {},
+      "allRequiredParamsPresent": true,
+      "fulfillmentText": "Ok, putting cup water and 100 ml water to your diary",
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              "Ok, putting cup water and 100 ml water to your diary"
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/newagent-3dd0f/agent/sessions/1470e02b-ff58-1ffd-bfac-7253080aec12/contexts/notify-about-drink-followup",
+          "parameters": {
+            "drink-intake.original": [
+              "cup of water",
+              "100 ml of water"
+            ],
+            "drink-intake": [
+              {
+                "container": "cup",
+                "container.original": "cup",
+                "container.object": {},
+                "drink": "water",
+                "drink.original": "water",
+                "drink.object": {}
+              },
+              {
+                "unit-volume": {
+                  "amount": 100,
+                  "unit": "ml"
+                },
+                "unit-volume.original": "100 ml",
+                "unit-volume.object": {},
+                "drink": "water",
+                "drink.original": "water",
+                "drink.object": {}
+              }
+            ]
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/newagent-3dd0f/agent/intents/0ccb936d-1f39-4cc2-be5b-b55a5b73c842",
+        "displayName": "notify-about-drink - yes"
+      },
+      "intentDetectionConfidence": 1,
+      "languageCode": "en"
+    },
+    "originalDetectIntentRequest": {
+      "payload": {}
+    },
+    "session": "projects/newagent-3dd0f/agent/sessions/1470e02b-ff58-1ffd-bfac-7253080aec12"
+  }
